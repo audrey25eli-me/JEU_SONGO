@@ -153,3 +153,12 @@ function rejouer() {
 }
 
 document.getElementById("rejouer").addEventListener("click", rejouer)
+
+toutesLesFosses.forEach(function(fosse) {
+  let j = parseInt(fosse.dataset.joueur)
+  if (j !== joueurActuel) {
+    fosse.classList.add("inactive")
+  } else {
+    fosse.classList.remove("inactive")
+  }
+})
