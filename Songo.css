@@ -1,0 +1,76 @@
+ /*Style général de la page */
+ body{
+    background-color: #1a0a00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, serif;
+    color: white;
+ }
+
+ /* Le plateau */
+ #plateau {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background-color: #5c3310;
+    padding: 24px;
+    border-radius: 40px;
+    border: 4px solid #8B5E3C;
+ }
+
+ /* Les deux rangées */
+ #rangées {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ }
+
+ /* chaque rangée */
+ #rangee-j1, #rangee-j2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+ }
+
+ .fosse{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: #3d1f07;
+   border:3px solid #8B5E3C;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 22px;
+   font-weight: bold;
+   color: #f9e07a;
+ }
+
+ /* Les greniers */
+ #grenier-j1, #grenier-j2 {
+   width: 50px;
+   height: 120px;
+   border-radius: 30px;
+   background-color: #3d1f07;
+   border: 3px solid #8B5E3C;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 22px;
+   font-weight: bold;
+   color: #f9e07a;
+ }
+ #rejouer {
+   margin-top: 16px;
+   padding: 10px 28px;
+   background-color: #c8860a;
+   color: #1a0a00;
+   border:none;
+   border-radius: 20px;
+   font-size: 16px;
+   font-family: Georgia, serif;
+   font-weight: bold;
+   cursor: pointer;
+ }

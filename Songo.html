@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Songo</title>
+        <link rel="stylesheet" href="Songo.css">
+    </head>
+    <body>
+        <h1>Songo</h1>
+        <p id="message">Tour du joueur 1></p>
+        <button id="rejouer">Rejouer</button>
+        <div id="plateau">
+            <!-- Grenier du joueur 2 (a gauche) -->
+             <div id="grenier-j2">
+                <span>0</span>
+             </div>
+             <div id="rangées">
+                <!--Rangée du joueur 2 (en haut) -->
+                <div id="rangee-j2">
+                 <!--7 fosses ici-->
+                 <div class="fosse" data-joueur="2" data-index="0"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="1"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="2"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="3"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="4"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="5"><span>4</span></div>
+                 <div class="fosse" data-joueur="2" data-index="6"><span>4</span></div>
+
+                </div>
+               <!--Rangée du joueur 1 (en bas) -->
+               <div id="rangee-j1">
+                 <!--7 fosses ici -->
+                 <div class="fosse" data-joueur="1" data-index="0"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="1"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="2"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="3"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="4"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="5"><span>4</span></div>
+                 <div class="fosse" data-joueur="1" data-index="6"><span>4</span></div>
+
+                </div>
+         </div>
+         <!-- Grenier du joueur 1 (a droite) -->
+         <div id="grenier-j1">
+            <span>0</span>
+         </div>
+         </div> 
+        <script src="Songo.js"></script>
+    </body>
+</html>
