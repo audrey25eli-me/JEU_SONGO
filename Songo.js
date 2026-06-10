@@ -1,8 +1,8 @@
 // le plateau en memoire
 // chaque tableau représente les 7 fosses d'un joueur
 let fosses = [
-    [4,4,4,4,4,4,4], // joueur 1
-    [4,4,4,4,4,4,4] // joueur 2
+    [5,5,5,5,5,5,5], // joueur 1
+    [5,5,5,5,5,5,5] // joueur 2
 ]
 // Les greniers
 let greniers = [0,0] //[joueur 1, joueur 2]
@@ -143,8 +143,8 @@ function verifierFin() {
 
 function rejouer() {
   fosses = [
-    [4,4,4,4,4,4,4],
-    [4,4,4,4,4,4,4]
+    [5,5,5,5,5,5,5],
+    [5,5,5,5,5,5,5]
   ]
   greniers = [0, 0]
   joueurActuel = 1
